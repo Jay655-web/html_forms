@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form action="">
+            <label for="name">Full name : </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <br>
+            <label for="mail">Email : </label>
+            <input type="email" id="mail" placeholder="Enter your email">
+            <br>
+            <label for="Gender">Gender : </label>
+            <input type="radio" name="Gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br>
+            <label for="course">Course of Study : </label>
+            <select name="course" id="course">
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="React">React</option>
+            </select>
+            <br>
+            <div width="100%"> 
+                <label for="interest">Tech Stack Interest : </label>
+                <input type="checkbox" id="interest" name="techstack" value="ui/ux">
+                <label for="interest">UI/UX</label>
+                <input type="checkbox" id="interest" name="techstack" value="frontend">
+                <label for="interest">Frontend</label>
+                <input type="checkbox" id="interest" name="techstack" value="backend">
+                <label for="interest">Backend</label>
+                <input type="checkbox" id="interest" name="techstack" value="mobiledev">
+                <label for="interest">Mobile Dev</label>
+                <input type="checkbox" id="interest" name="techstack" value="datascience">
+                <label for="interest">Data Science</label>
+            </div>
+            <label for="message">Why do you want to join this program : </label>
+            <br>
+            <textarea name="message" id="message" cols="20" rows="10" placeholder="Write your message here"></textarea>
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
