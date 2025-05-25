@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../first_web"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../html_tables"
+		},
+		{
+			"path": "../../../Documents/Web Dev/Portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}
